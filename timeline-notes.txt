@@ -1,0 +1,61 @@
+yarn create vite revi-monster-battle --template react-ts
+
+yarn
+
+yarn dev
+
+deleted public/vite.svg
+
+deleted src/assets/react.svg
+
+created src/types/Monster.ts
+
+created src/utils/battle-algorithm.ts
+
+yarn add react-hook-form
+
+yarn add tailwindcss @tailwindcss/vite
+
+replace everything in src/index.css with @import "tailwindcss"
+
+yarn add -D @types/node
+
+yarn add shadcn@latest
+
+yarn shadcn init
+
+yarn shadcn add label input button form
+
+deleted App.css
+
+created MonsterForm.tsx component
+
+yarn remove zod
+
+created src/types/Battle.ts
+
+yarn shadcn add card
+
+created BattleResult.tsx component
+
+created BattleArena.tsx component
+
+added dark theme by creating theme-provider.tsx and mode-toggle.tsx
+
+yarn shadcn add dropdown-menu
+
+importing mode-toggle.tsx inside App.tsx
+
+credits to @Equasians (https://www.pixilart.com/equasians) from where I got the default monster images
+
+yarn add react-router-dom
+
+wrapped with BrowserRouter on main.tsx
+
+create Navbar.tsx
+
+create Footer.tsx
+
+moved mode-toggle.tsx from App.tsx to Navbar.tsx
+
+moved BrowserRouter (Router) from main.tsx to App.tsx including Routes and Route
